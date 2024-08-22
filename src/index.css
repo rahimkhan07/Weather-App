@@ -11,7 +11,7 @@
  
 .container {
   background: #EDF0F6;
-  background: linear-gradient(354deg, #137DF5 0%, #14B1F8 100%);
+  background: linear-gradient(354deg, #137DF5 0%, #012236 100%);
   width: 320px;
   height: 600px;
   position: absolute;
@@ -24,11 +24,11 @@
  
 .container_date
 {
-  color: rgb(31, 31, 31);
+  color: rgb(255, 255, 255);
   margin-top:76px;
-  opacity: 47%;
+  /* opacity: 47%; */
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 600;
 }
  
 .container_city
@@ -76,6 +76,7 @@
   transition: 0.3s;
   position: relative;
   top: -2px;
+  border: solid #012236;
  }
   
  .input:focus {
@@ -92,7 +93,7 @@
   {
     color: #090909;
     padding: 0.7em 0.7em;
-    font-size: 17.9px;
+    font-size: 18.5px;
     border-top-right-radius: 15px;
     /* background: #e8e8e8; */
     cursor: pointer;
